@@ -11,6 +11,8 @@
     <modules>
         <module>jinggo-hadoop-try</module>
         <module>jinggo-sharingjdbc-springboot</module>
+        <module>jinggo-sharingjdbc-raw-java</module>
+        <module>jinggo-sharingjdbc-raw-yaml</module>
     </modules>
     
     <parent>

@@ -1,0 +1,22 @@
+dataSources:
+  ds_master: !!org.apache.commons.dbcp.BasicDataSource
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.5.111:3306/demo_ds_master
+    username: root
+    password: soonfor123456!
+  ds_slave_0: !!org.apache.commons.dbcp.BasicDataSource
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.5.77:3306/demo_ds_master
+    username: root
+    password: soonfor123456!
+#  ds_slave_1: !!org.apache.commons.dbcp.BasicDataSource
+#    driverClassName: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/demo_ds_slave_1
+#    username: root
+#    password:
+
+#, ds_slave_1
+masterSlaveRule:
+  name: ds_ms
+  masterDataSourceName: ds_master
+  slaveDataSourceNames: [ds_slave_0]
