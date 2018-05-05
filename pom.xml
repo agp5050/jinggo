@@ -13,6 +13,7 @@
         <module>jinggo-sharingjdbc-springboot</module>
         <module>jinggo-sharingjdbc-raw-java</module>
         <module>jinggo-sharingjdbc-raw-yaml</module>
+        <module>jinggo-sharingjdbc-jpa</module>
     </modules>
     
     <parent>
