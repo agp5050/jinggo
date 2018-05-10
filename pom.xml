@@ -15,6 +15,7 @@
         <module>jinggo-sharingjdbc-raw-yaml</module>
         <module>jinggo-sharingjdbc-jpa</module>
         <module>jinggo-sharingjdbc-zk-yaml</module>
+        <module>jinggo-hadoop-stream</module>
     </modules>
     
     <parent>
