@@ -16,6 +16,7 @@
         <module>jinggo-sharingjdbc-jpa</module>
         <module>jinggo-sharingjdbc-zk-yaml</module>
         <module>jinggo-hadoop-stream</module>
+        <module>jinggo-kafka-storm-log</module>
     </modules>
     
     <parent>

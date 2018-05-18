@@ -1,6 +1,11 @@
-package ml.jinggo.data.mapreduce;
+package ml.jinggo.data;
 
 import java.io.IOException;
+
+import ml.jinggo.data.mapreduce.ClickStreamMapper;
+import ml.jinggo.data.mapreduce.ClickStreamReducer;
+import ml.jinggo.data.mapreduce.SessionIdPartioner;
+import ml.jinggo.data.mapreduce.SortComparator;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.Text;
@@ -18,9 +23,6 @@ public class Driver {
 	/**
 	 * @Description: 程序处理入口
 	 * @param args 两个参数，程序文件输入路径和程序文件输出路径
-	 * @param IOException
-	 * @param ClassNotFoundException
-	 * @param InterruptedException   
 	 * @return void  
 	 * @throws 
 	 * @author 王宏
