@@ -1,3 +1,5 @@
+package ml.jinggo.data;
+
 import ml.jinggo.data.logentry.AccessLogBean;
 import ml.jinggo.data.utils.CodeFormatter;
 import org.apache.hadoop.io.Text;

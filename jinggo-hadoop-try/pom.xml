@@ -11,6 +11,11 @@
 
     <artifactId>jinggo-hadoop-try</artifactId>
 
+    <properties>
+        <junit.version>4.12</junit.version>
+        <mrunit.version>1.1.0</mrunit.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.hadoop</groupId>
@@ -36,6 +41,20 @@
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-mapreduce-client-common</artifactId>
             <version>2.7.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <!-- mrunit -->
+        <dependency>
+            <groupId>org.apache.mrunit</groupId>
+            <artifactId>mrunit</artifactId>
+            <version>${mrunit.version}</version>
+            <classifier>hadoop2</classifier>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
