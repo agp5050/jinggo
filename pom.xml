@@ -18,6 +18,7 @@
         <module>jinggo-hadoop-stream</module>
         <module>jinggo-kafka-storm-log</module>
         <module>jinggo-springbook-4xdo</module>
+        <module>jinggo-hbase-try</module>
     </modules>
     
     <parent>
