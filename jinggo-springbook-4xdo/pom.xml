@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>4xd0-ch02</module>
+        <module>4xdo-ch03</module>
     </modules>
 
     <dependencyManagement>
