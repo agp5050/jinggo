@@ -1,4 +1,4 @@
-package ml.jinggo;
+package ml.jinggo.domain;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.BeanFactory;
