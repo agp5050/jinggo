@@ -19,6 +19,7 @@
         <module>jinggo-kafka-storm-log</module>
         <module>jinggo-springbook-4xdo</module>
         <module>jinggo-hbase-try</module>
+        <module>jinggo-storm-try</module>
     </modules>
     
     <parent>
