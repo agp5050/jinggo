@@ -22,6 +22,7 @@ public class TestHBaseDemo {
 
 
 	public static void main(String[] args) throws Exception{
+		System.setProperty("hadoop.home.dir", "E:\\Tools\\hadoop-2.7.3");
 		createTable();
 		//insertOne();
 		//get();

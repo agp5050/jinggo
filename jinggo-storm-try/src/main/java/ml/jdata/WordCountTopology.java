@@ -7,10 +7,6 @@ import ml.jdata.demo.WordCountTotalBolt;
 import org.apache.storm.Config;
 import org.apache.storm.LocalCluster;
 import org.apache.storm.generated.StormTopology;
-import org.apache.storm.redis.bolt.RedisStoreBolt;
-import org.apache.storm.redis.common.config.JedisPoolConfig;
-import org.apache.storm.redis.common.mapper.RedisDataTypeDescription;
-import org.apache.storm.redis.common.mapper.RedisStoreMapper;
 import org.apache.storm.topology.IRichBolt;
 import org.apache.storm.topology.TopologyBuilder;
 import org.apache.storm.tuple.Fields;
@@ -63,7 +59,7 @@ public class WordCountTopology {
 //		StormSubmitter.submitTopology(args[0], conf, job);
     }
 
-    private static IRichBolt createRedisBolt() {
+    /*private static IRichBolt createRedisBolt() {
         // 创建一个RedisBolt
         JedisPoolConfig.Builder builder = new JedisPoolConfig.Builder();
         builder.setHost("192.168.5.77");
@@ -90,5 +86,5 @@ public class WordCountTopology {
                 return tuple.getStringByField("word");
             }
         });
-    }
+    }*/
 }

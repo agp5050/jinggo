@@ -18,11 +18,11 @@
             <version>1.0.3</version>
         </dependency>
 
-        <dependency>
+<!--        <dependency>
             <groupId>org.apache.storm</groupId>
             <artifactId>storm-redis</artifactId>
             <version>1.0.3</version>
-        </dependency>
+        </dependency>-->
 
         <!-- https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper -->
         <dependency>
@@ -34,6 +34,17 @@
             <groupId>org.apache.storm</groupId>
             <artifactId>storm-hbase</artifactId>
             <version>1.0.3</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.google.guava</groupId>
+                    <artifactId>guava</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>16.0</version>
         </dependency>
     </dependencies>
 
