@@ -46,7 +46,7 @@ public class WordCountHBaseBolt extends BaseRichBolt{
 
         //构造一个Put对象
         Put put = new Put(Bytes.toBytes(word));
-        put.add(Bytes.toBytes("info"), Bytes.toBytes("word"), Bytes.toBytes(word));
+     //   put.add(Bytes.toBytes("info"), Bytes.toBytes("word"), Bytes.toBytes(word));
         put.add(Bytes.toBytes("info"), Bytes.toBytes("total"), Bytes.toBytes(String.valueOf(total)));
 
         //插入数据

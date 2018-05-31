@@ -10,4 +10,8 @@
           p:brand="红旗CA72"
           p:maxSpeed="200"
     />
+    <!-- 工厂后处理器 -->
+    <!--<bean id="myBeanProcessor" class="ml.jinggo.context.MyBeanPostProcessor"/>-->
+    <!-- 注册bean 后处理 -->
+    <!--<bean id="myBeanFactoryPostProcessor" class="ml.jinggo.context.MyBeanFactoryPostProcessor"/>-->
 </beans>
