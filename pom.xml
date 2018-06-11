@@ -20,6 +20,7 @@
         <module>jinggo-springbook-4xdo</module>
         <module>jinggo-hbase-try</module>
         <module>jinggo-storm-try</module>
+        <module>jinggo-spark-try</module>
     </modules>
     
     <parent>
