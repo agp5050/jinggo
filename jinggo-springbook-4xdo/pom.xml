@@ -17,6 +17,7 @@
         <module>4xdo-ch05</module>
         <module>4xdo-ch06</module>
         <module>4xdo-ch07</module>
+        <module>4xdo-ch08</module>
     </modules>
 
     <dependencyManagement>
