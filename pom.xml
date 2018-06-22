@@ -21,6 +21,7 @@
         <module>jinggo-hbase-try</module>
         <module>jinggo-storm-try</module>
         <module>jinggo-spark-try</module>
+        <module>jinggo-springboot-scala</module>
     </modules>
     
     <parent>
