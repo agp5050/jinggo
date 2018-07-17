@@ -22,6 +22,7 @@
         <module>jinggo-storm-try</module>
         <module>jinggo-spark-try</module>
         <module>jinggo-springboot-scala</module>
+        <module>jinggo-zk-try</module>
     </modules>
     
     <parent>
